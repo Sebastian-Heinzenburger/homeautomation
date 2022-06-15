@@ -16,7 +16,7 @@ use std::time::SystemTime;
 static CMD_PASSWORD: &str = "secret"; //the AES key the commands are end-to-end encrypted with
 static EMAIL_ADDR: &str = "user@example.com";
 static EMAIL_BIN: &str = "neomutt"; //or mailx e.g.
-static BASE_URL: &str = "https://home.example.com/";
+static BASE_URL: &str = "https://home.example.com/"; //note the slash
 
 static HTTP_USER: &str = "automatipi"; //set in .htacces for example
 static HTTP_PASS: &str = "secret";
